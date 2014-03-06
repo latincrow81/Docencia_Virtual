@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contenidos>
+	<datoscurso>
+		<nombre>Docencia Virtual</nombre>							
+	</datoscurso>
+	
+	<!-- no modificar -->	
+	
+	<!-- vinculos a paginas generales -->
+	
+	<guia>
+		
+	</guia>
+	
+	<!-- vinculo a ayuda -->
+	
+	<herramientas>
+		<herramienta topmenu="si" footermenu="si">
+			<id>2</id>
+			<tipo>10000</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Ayuda</nombre>
+			<enlace>ayuda.html</enlace>
+		</herramienta>		
+	</herramientas>	
+		
+	<!-- fin de no modificar -->
+	
+	<!-- inicio de unidad 1 --> 
+		
+	<unidad>
+		
+		<nombre>Unidad 1: Teorías del aprendizaje</nombre>
+		
+		<!-- introduccion -->
+	
+		<enlace>unidad1/index.html</enlace>
+		
+		<contenido topmenu="si">
+			<id>10001</id>
+			<tipo>5</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre>Introducción</nombre>
+			<micro_descripcion></micro_descripcion>			
+			<enlace>unidad1/index.html</enlace>		
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si" template="no">
+			<id>101</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Mapa Conceptual</nombre>
+			<enlace>unidad1/mapa.html</enlace>			
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>102</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Glosario</nombre>
+			<enlace>unidad1/glosario.html</enlace>								
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>103</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Bibliografía</nombre>
+			<enlace>unidad1/bibliografia.html</enlace>					
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>104</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Créditos</nombre>		
+			<enlace>unidad1/creditos.html</enlace>								
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>105</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Ficha Técnica</nombre>		
+			<enlace>unidad1/ficha.html</enlace>								
+		</contenido>
+		
+		<!-- objetos de informacion unidad 1 -->
+		
+			<contenido>
+				<id>11101</id>
+				<tipo>1</tipo>
+				<tipo_enlace>6</tipo_enlace>
+				<nombre>Teorías de aprendizaje como sustento al diseño y evaluación de ambientes de enseñanza-aprendizaje, cap. 4.</nombre>
+				<micro_descripcion>Lectura de profundización acerca de los principios de las teorías del aprendizaje para el diseño de ambientes virtuales de aprendizaje.</micro_descripcion>
+				<logo>thumbs/thumb_no_image.jpg</logo>
+				<enlace>unidad1/md/teorias-de-aprendizaje-como-sustento-al-diseno-de-ambientes.pdf</enlace>					
+			</contenido>
+		
+		<!-- fin objetos de informacion unidad 1 -->
+					
+		<!-- definicion de temas -->
+		
+		<contenido footermenu="si" pdf="unidad1/md/docencia-virtual-unidad-1.pdf">
+			<id>11100</id>
+			<tipo>10</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre>Teorías del aprendizaje como sustento al diseño de ambientes virtuales</nombre>
+			<display>Tema 1</display>
+			<paginas>5</paginas>
+			<micro_descripcion></micro_descripcion>
+			<logo>thumbs/thumb_no_image.jpg</logo>
+			<enlace>unidad1/tema_1/1.html</enlace>
+			<contenidos_asociados>
+				<id_contenido>11101</id_contenido>				
+			</contenidos_asociados>
+		</contenido>
+		
+		<contenido footermenu="si" pdf="unidad1/md/docencia-virtual-unidad-1.pdf">
+			<id>12100</id>
+			<tipo>10</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre></nombre>
+			<display>Actividades de Auto-Aprendizaje</display>
+			<paginas>1</paginas>
+			<micro_descripcion></micro_descripcion>
+			<logo>thumbs/thumb_no_image.jpg</logo>
+			<enlace>unidad1/actividades_de_auto-aprendizaje/1.html</enlace>
+			<contenidos_asociados>
+				<id_contenido>11101</id_contenido>				
+			</contenidos_asociados>
+		</contenido>
+		
+		<!-- fin definicion de temas -->
+		
+	</unidad>
+	
+	<!-- fin unidad 1 -->
+	
+	<unidad>
+		<nombre>Unidad 2: Estrategias De Aprendizaje Con Medios Y Tecnología</nombre>
+		<!-- introduccion -->
+	
+		<enlace>unidad2/index.html</enlace>
+		<pdf>unidad2/md/docencia-virtual-unidad-2.pdf</pdf>
+		
+		<contenido topmenu="si">
+			<id>10001</id>
+			<tipo>5</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre>Introducción</nombre>
+			<micro_descripcion></micro_descripcion>			
+			<enlace>unidad2/index.html</enlace>		
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si" template="no">
+			<id>201</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Mapa Conceptual</nombre>
+			<enlace>unidad2/mapa.html</enlace>			
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>202</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Glosario</nombre>
+			<enlace>unidad2/glosario.html</enlace>								
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>203</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Bibliografía</nombre>
+			<enlace>unidad2/bibliografia.html</enlace>					
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>204</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Créditos</nombre>		
+			<enlace>unidad2/creditos.html</enlace>								
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>205</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Ficha Técnica</nombre>		
+			<enlace>unidad2/ficha.html</enlace>								
+		</contenido>
+		
+		<!-- objetos de informacion unidad 2 -->
+		
+			<contenido>
+				<id>21101</id>
+				<tipo>5</tipo>
+				<tipo_enlace>6</tipo_enlace>
+				<nombre>Funciones del tutor y compromisos del alumno en la docencia semipresencial y a distancia</nombre>
+				<micro_descripcion>Lectura de profundización acerca de las funciones del tutor virtual.</micro_descripcion>
+				<logo>thumbs/thumb_no_image.jpg</logo>
+				<enlace>http://issuu.com/hprovencio/docs/h-provencio_0-juan-lazaro</enlace>					
+			</contenido>
+			
+			<contenido>
+				<id>22101</id>
+				<tipo>1</tipo>
+				<tipo_enlace>6</tipo_enlace>
+				<nombre>Estrategias docentes para un aprendizaje significativo.</nombre>
+				<micro_descripcion>Lectura de profundización que propone estrategias de enseñanza para contribuir a la adquisición de aprendizajes significativos. </micro_descripcion>
+				<logo>thumbs/thumb_no_image.jpg</logo>
+				<enlace>unidad2/md/estrategias-docentes-para-un-aprendizaje-significativo.pdf</enlace>					
+			</contenido>
+		
+			<contenido>
+				<id>23101</id>
+				<tipo>1</tipo>
+				<tipo_enlace>6</tipo_enlace>
+				<nombre>Lineamientos para el diseño de ambientes virtuales de aprendizaje.</nombre>
+				<micro_descripcion>Lectura de profundización en la que se presenta en un modelo, los lineamientos orientados al diseño de cursos virtuales.</micro_descripcion>
+				<logo>thumbs/thumb_no_image.jpg</logo>
+				<enlace>unidad2/md/lineamientos-para-el-diseno-de-ava.pdf</enlace>					
+			</contenido>
+			
+			<contenido>
+				<id>23102</id>
+				<tipo>1</tipo>
+				<tipo_enlace>6</tipo_enlace>
+				<nombre>Diseño instruccional</nombre>
+				<micro_descripcion>La lectura explica los pasos del diseño instruccional presentados por diferentes modelos en diversos periodos. </micro_descripcion>
+				<logo>thumbs/thumb_no_image.jpg</logo>
+				<enlace>unidad2/md/diseno-instruccional-y-teorias-del-aprendizaje.pdf</enlace>					
+			</contenido>
+			
+		<!-- fin objetos de informacion unidad 2 -->
+		
+		<!-- definicion de temas -->
+		
+		<contenido footermenu="si" pdf="unidad2/md/docencia-virtual-unidad-2.pdf">
+			<id>21100</id>
+			<tipo>10</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre>Rol del profesor virtual</nombre>
+			<display>Tema 1</display>
+			<paginas>1</paginas>
+			<micro_descripcion></micro_descripcion>
+			<logo>thumbs/thumb_no_image.jpg</logo>
+			<enlace>unidad2/tema_1/1.html</enlace>
+			<contenidos_asociados>
+				<id_contenido>21101</id_contenido>				
+			</contenidos_asociados>
+		</contenido>
+		
+		<contenido footermenu="si" pdf="unidad2/md/docencia-virtual-unidad-2.pdf">
+			<id>22100</id>
+			<tipo>10</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre>Estrategias de enseñanza para el aprendizaje virtual</nombre>
+			<display>Tema 2</display>
+			<paginas>1</paginas>
+			<micro_descripcion></micro_descripcion>
+			<logo>thumbs/thumb_no_image.jpg</logo>
+			<enlace>unidad2/tema_2/1.html</enlace>
+			<contenidos_asociados>
+				<id_contenido>22101</id_contenido>				
+			</contenidos_asociados>
+		</contenido>
+		
+		<contenido footermenu="si" pdf="unidad2/md/docencia-virtual-unidad-2.pdf">
+			<id>23100</id>
+			<tipo>10</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre>Diseño instruccional</nombre>
+			<display>Tema 3</display>
+			<paginas>1</paginas>
+			<micro_descripcion></micro_descripcion>
+			<logo>thumbs/thumb_no_image.jpg</logo>
+			<enlace>unidad2/tema_3/1.html</enlace>
+			<contenidos_asociados>
+				<id_contenido>23101</id_contenido>
+				<id_contenido>23102</id_contenido>				
+			</contenidos_asociados>
+		</contenido>
+		
+		<contenido footermenu="si" pdf="unidad2/md/docencia-virtual-unidad-2.pdf">
+			<id>24100</id>
+			<tipo>10</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre></nombre>
+			<display>Actividades de Auto-Aprendizaje</display>
+			<paginas>1</paginas>
+			<micro_descripcion></micro_descripcion>
+			<logo>thumbs/thumb_no_image.jpg</logo>
+			<enlace>unidad2/actividades_de_auto-aprendizaje/1.html</enlace>
+			<contenidos_asociados>
+				<id_contenido>23101</id_contenido>
+				<id_contenido>23102</id_contenido>			
+			</contenidos_asociados>
+		</contenido>
+		
+		<!-- fin definicion de temas -->
+		
+	</unidad>
+	
+	<!-- fin unidad 2 -->
+	
+	<unidad>
+		
+		<nombre>Unidad 3: Diseño de un Curso Virtual</nombre>
+		
+		<!-- introduccion -->
+	
+		<enlace>unidad3/index.html</enlace>
+		
+		<contenido topmenu="si">
+			<id>10001</id>
+			<tipo>5</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre>Introducción</nombre>
+			<micro_descripcion></micro_descripcion>			
+			<enlace>unidad3/index.html</enlace>		
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si" template="no">
+			<id>301</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Mapa Conceptual</nombre>
+			<enlace>unidad3/mapa.html</enlace>			
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>302</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Glosario</nombre>
+			<enlace>unidad3/glosario.html</enlace>								
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>303</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Bibliografía</nombre>
+			<enlace>unidad3/bibliografia.html</enlace>					
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>304</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Créditos</nombre>		
+			<enlace>unidad3/creditos.html</enlace>								
+		</contenido>
+		
+		<contenido topmenu="si" footermenu="si">
+			<id>305</id>
+			<tipo>5</tipo>
+			<tipo_enlace>2</tipo_enlace>
+			<nombre>Ficha Técnica</nombre>		
+			<enlace>unidad3/ficha.html</enlace>								
+		</contenido>
+		
+		<!-- objetos de informacion unidad 3 -->
+		
+			<contenido>
+				<id>31101</id>
+				<tipo>1</tipo>
+				<tipo_enlace>6</tipo_enlace>
+				<nombre>Entornos virtuales de aprendizaje</nombre>
+				<micro_descripcion>Lectura de profundización acerca de las funciones del tutor virtual.</micro_descripcion>
+				<logo>thumbs/thumb_no_image.jpg</logo>
+				<enlace>unidad3/md/entornos-virtuales-de-aprendizaje.pdf</enlace>					
+			</contenido>
+			
+			<contenido>
+				<id>32101</id>
+				<tipo>1</tipo>
+				<tipo_enlace>6</tipo_enlace>
+				<nombre>E-actividades: elementos constitutivos para la calidad de la praxis educativa digital.</nombre>
+				<micro_descripcion>Artículo que permite conocer en profundidad las características de las actividades digitales para entornos virtuales</micro_descripcion>
+				<logo>thumbs/thumb_no_image.jpg</logo>
+				<enlace>unidad3/md/e-actividades.pdf</enlace>					
+			</contenido>
+		
+			<contenido>
+				<id>33101</id>
+				<tipo>1</tipo>
+				<tipo_enlace>6</tipo_enlace>
+				<nombre>Taller para el reconocimiento de las herramientas de blackboard</nombre>
+				<micro_descripcion>Esta presentación en PowerPoint permite conocer la plataforma de blackboard desde el rol del docente y  entender el procedimiento para la utilización de herramientas y recursos</micro_descripcion>
+				<logo>thumbs/thumb_no_image.jpg</logo>
+				<enlace>unidad3/md/taller-blackboard.pdf</enlace>					
+			</contenido>
+			
+			<contenido>
+				<id>33102</id>
+				<tipo>4</tipo>
+				<tipo_enlace>5</tipo_enlace>
+				<nombre>Video tutorial para la gestión básica de herramientas en blackboard</nombre>
+				<micro_descripcion>Este video permite aprender a utilizar las herramientas de la plataforma. </micro_descripcion>
+				<logo>thumbs/thumb_no_image.jpg</logo>
+				<enlace>http://www.youtube.com/embed/NGE_vMI1gLg</enlace>					
+			</contenido>
+			
+		<!-- fin objetos de informacion unidad 3 -->
+		
+		<!-- definicion de temas -->
+		
+		<contenido footermenu="si" pdf="unidad3/md/docencia-virtual-unidad-3.pdf">
+			<id>31100</id>
+			<tipo>10</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre>Ambientes virtuales de aprendizaje</nombre>
+			<display>Tema 1</display>
+			<paginas>3</paginas>
+			<micro_descripcion></micro_descripcion>
+			<logo>thumbs/thumb_no_image.jpg</logo>
+			<enlace>unidad3/tema_1/1.html</enlace>
+			<contenidos_asociados>
+				<id_contenido>11101</id_contenido>				
+			</contenidos_asociados>
+		</contenido>
+		
+		<contenido footermenu="si" pdf="unidad3/md/docencia-virtual-unidad-3.pdf">
+			<id>32100</id>
+			<tipo>10</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre>Actividades de aprendizaje</nombre>
+			<display>Tema 2</display>
+			<paginas>1</paginas>
+			<micro_descripcion></micro_descripcion>
+			<logo>thumbs/thumb_no_image.jpg</logo>
+			<enlace>unidad3/tema_2/1.html</enlace>
+			<contenidos_asociados>
+				<id_contenido>11101</id_contenido>				
+			</contenidos_asociados>
+		</contenido>
+		
+		<contenido footermenu="si" pdf="unidad3/md/docencia-virtual-unidad-3.pdf">
+			<id>33100</id>
+			<tipo>10</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre>Gestión docente del aula virtual</nombre>
+			<display>Tema 3</display>
+			<paginas>2</paginas>
+			<micro_descripcion></micro_descripcion>
+			<logo>thumbs/thumb_no_image.jpg</logo>
+			<enlace>unidad3/tema_3/1.html</enlace>
+			<contenidos_asociados>
+				<id_contenido>11101</id_contenido>				
+			</contenidos_asociados>
+		</contenido>
+		
+		<contenido footermenu="si" pdf="unidad3/md/docencia-virtual-unidad-3.pdf">
+			<id>34100</id>
+			<tipo>10</tipo>
+			<tipo_enlace>1</tipo_enlace>
+			<nombre></nombre>
+			<display>Actividades de Auto-Aprendizaje</display>
+			<paginas>1</paginas>
+			<micro_descripcion></micro_descripcion>
+			<logo>thumbs/thumb_no_image.jpg</logo>
+			<enlace>unidad3/actividades_de_auto-aprendizaje/1.html</enlace>
+			<contenidos_asociados>
+				<id_contenido>23101</id_contenido>
+				<id_contenido>23102</id_contenido>			
+			</contenidos_asociados>
+		</contenido>
+		
+		<!-- fin definicion de temas -->
+		
+	</unidad>
+
+</contenidos>

@@ -1,0 +1,388 @@
+<HTML>
+<HEAD>
+  <TITLE>mapa_curso_docencia_virtual.cmap.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Mapa Conceptual, cmap, CmapTools, IHMC, mapa_curso_docencia_virtual.cmap,  Procesos de interacción,  Enseñanza,  Diseño de actividades,  TIC,  Materiales didácticos,  Gestión docente de la plataforma virtual,  Asincrónico,  Evaluación,  Teorias de aprendizaje,  Diseño instruccional,  Procesos de enseñanza y aprendizaje con medios y tecnología,  Estrategias metodológicas,  Uso de herramientas y recursos tecnológicos de la plataforma virtual,  Aprendizaje,  Nuevos enfoques pedagógicos,  Sincrónico,  Curso de Docencia Virtual">
+  <meta NAME = "DESCRIPTION"        CONTENT = "Este Cmap, tiene información relacionada con: mapa_curso_docencia_virtual.cmap, Gestión docente de la plataforma virtual mediante Uso de herramientas y recursos tecnológicos de la plataforma virtual, Diseño de actividades de Enseñanza, Estrategias metodológicas orientados a mejorar Materiales didácticos, Curso de Docencia Virtual comprende Gestión docente de la plataforma virtual, Gestión docente de la plataforma virtual considera Procesos de interacción, Diseño instruccional considera Diseño de actividades, Diseño de actividades de Aprendizaje, Gestión docente de la plataforma virtual considera Diseño de actividades, Curso de Docencia Virtual comprende Diseño instruccional, Procesos de enseñanza y aprendizaje con medios y tecnología implican Diseño de actividades, Estrategias metodológicas orientados a mejorar Procesos de enseñanza y aprendizaje con medios y tecnología, Teorias de aprendizaje como base para proponer Estrategias metodológicas, Gestión docente de la plataforma virtual considera Materiales didácticos, Teorias de aprendizaje como base para proponer Nuevos enfoques pedagógicos, Nuevos enfoques pedagógicos mediados por TIC, Diseño instruccional considera Materiales didácticos, Uso de herramientas y recursos tecnológicos de la plataforma virtual con Procesos de interacción, Procesos de interacción de tipo Sincrónico, Procesos de interacción de tipo Asincrónico, Curso de Docencia Virtual comprende Teorias de aprendizaje">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 5.03, http://cmap.ihmc.us/
+    //  Support at http://cmapforum.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport AT ihmc DOT us
+    //  Date: 10/06/2009
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.pageX;
+	    document.getElementById(popupName).style.top = event.pageY;
+	    document.getElementById(popupName).style.background = "#FFFFFF";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#FFFFFF";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#FFFFFF";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+Este Cmap, tiene información relacionada con: mapa_curso_docencia_virtual.cmap, Gestión docente de la plataforma virtual mediante Uso de herramientas y recursos tecnológicos de la plataforma virtual, Diseño de actividades de Enseñanza, Estrategias metodológicas orientados a mejorar Materiales didácticos, Curso de Docencia Virtual comprende Gestión docente de la plataforma virtual, Gestión docente de la plataforma virtual considera Procesos de interacción, Diseño instruccional considera Diseño de actividades, Diseño de actividades de Aprendizaje, Gestión docente de la plataforma virtual considera Diseño de actividades, Curso de Docencia Virtual comprende Diseño instruccional, Procesos de enseñanza y aprendizaje con medios y tecnología implican Diseño de actividades, Estrategias metodológicas orientados a mejorar Procesos de enseñanza y aprendizaje con medios y tecnología, Teorias de aprendizaje como base para proponer Estrategias metodológicas, Gestión docente de la plataforma virtual considera Materiales didácticos, Teorias de aprendizaje como base para proponer Nuevos enfoques pedagógicos, Nuevos enfoques pedagógicos mediados por TIC, Diseño instruccional considera Materiales didácticos, Uso de herramientas y recursos tecnológicos de la plataforma virtual con Procesos de interacción, Procesos de interacción de tipo Sincrónico, Procesos de interacción de tipo Asincrónico, Curso de Docencia Virtual comprende Teorias de aprendizaje
+
+</noscript>
+
+<map name="mapa_curso_docencia_virtual.cmap.html">
+  <area shape="rect"
+        href="1KX64YCDSI5ZVSJNI24VItextIplain"
+        onClick="popUpEvt(event,'1KX64YCDSI5ZVSJNI24VItextIplain'); return false;"
+        coords="196,445,214,463">
+  <area shape="rect"
+        href="1M7Z27WJNI255V1SPIQLItextIplain"
+        onClick="popUpEvt(event,'1M7Z27WJNI255V1SPIQLItextIplain'); return false;"
+        coords="68,445,86,463">
+  <area shape="rect"
+        href="1KX63JXB9I5MLG46IYPItextIplain"
+        onClick="popUpEvt(event,'1KX63JXB9I5MLG46IYPItextIplain'); return false;"
+        coords="485,263,503,281">
+  <area shape="rect"
+        href="1KX64RPGLI1822N1MI1YLItextIplain"
+        onClick="popUpEvt(event,'1KX64RPGLI1822N1MI1YLItextIplain'); return false;"
+        coords="800,446,818,464">
+  <area shape="rect"
+        href="1KX64ZHMXI24BHDVNI274ItextIplain"
+        onClick="popUpEvt(event,'1KX64ZHMXI24BHDVNI274ItextIplain'); return false;"
+        coords="433,446,451,464">
+  <area shape="rect"
+        href="1KX603089I262CPKWIJVItextIplain"
+        onClick="popUpEvt(event,'1KX603089I262CPKWIJVItextIplain'); return false;"
+        coords="68,98,86,116">
+  <area shape="rect"
+        href="1KX63C65PI1DP0G5BISLItextIplain"
+        onClick="popUpEvt(event,'1KX63C65PI1DP0G5BISLItextIplain'); return false;"
+        coords="385,194,403,212">
+  <area shape="rect"
+        href="1KX609P71I1KC3ZBPIMNItextIplain"
+        onClick="popUpEvt(event,'1KX609P71I1KC3ZBPIMNItextIplain'); return false;"
+        coords="236,193,254,211">
+  <area shape="rect"
+        href="1KX64Z3TQISH55RDI267ItextIplain"
+        onClick="popUpEvt(event,'1KX64Z3TQISH55RDI267ItextIplain'); return false;"
+        coords="313,496,331,514">
+  <area shape="rect"
+        href="1KX64R8W3I116SK4RI1XBItextIplain"
+        onClick="popUpEvt(event,'1KX64R8W3I116SK4RI1XBItextIplain'); return false;"
+        coords="665,446,683,464">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#mapa_curso_docencia_virtual.cmap.html"
+             SRC="images/mapa_curso_docencia_virtual.cmap.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="images/CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1KX64YCDSI5ZVSJNI24VItextIplain" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table cellpadding=10 cellspacing=0 bgcolor="#12809a" width="80" border="0" style="border-radius:10px;">
+    <tr>
+      <td wrap><font face="Geneva, Arial" style="font-weight:bold;color:white" size=2 width=80>
+      Proceso para dar instrucci&oacute;n o tambi�n puede un conjunto de conocimientos. 
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1M7Z27WJNI255V1SPIQLItextIplain" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table cellpadding=10 cellspacing=0 bgcolor="#12809a" width="80" border="0" style="border-radius:10px;">
+    <tr>
+      <td wrap><font face="Geneva, Arial" style="font-weight:bold;color:white" size=2 width=80>
+      Sigla que significa tecnolog�as de la informaci&oacute;n y la comunicaci&oacute;n.
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1KX63JXB9I5MLG46IYPItextIplain" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table cellpadding=10 cellspacing=0 bgcolor="#12809a" width="80" border="0" style="border-radius:10px;">
+    <tr>
+      <td wrap><font face="Geneva, Arial" style="font-weight:bold;color:white" size=2 width=80>
+     Contenidos educativos dise&ntilde;ados intencionalmente para facilitar la adquisici&oacute;n de conocimientos.
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1KX64RPGLI1822N1MI1YLItextIplain" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table cellpadding=10 cellspacing=0 bgcolor="#12809a" width="80" border="0" style="border-radius:10px;">
+    <tr>
+      <td wrap><font face="Geneva, Arial" style="font-weight:bold;color:white" size=2 width=80>
+      Proceso de comunicaci&oacute;n que se realiza de forma diferida en relaci&oacute;n con el tiempo en un ambiente virtual. Ejemplo: Foro � Correo Electr&oacute;nico.
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1KX64ZHMXI24BHDVNI274ItextIplain" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table cellpadding=10 cellspacing=0 bgcolor="#12809a" width="80" border="0" style="border-radius:10px;">
+    <tr>
+      <td wrap><font face="Geneva, Arial" style="font-weight:bold;color:white" size=2 width=80>
+      Enti�ndase como el acto de valorar el aprendizaje. 
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1KX603089I262CPKWIJVItextIplain" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table cellpadding=10 cellspacing=0 bgcolor="#12809a" width="80" border="0" style="border-radius:10px;">
+    <tr>
+      <td wrap><font face="Geneva, Arial" style="font-weight:bold;color:white" size=2 width=80>
+      Conjunto de conceptos y saberes que explican c&oacute;mo se produce el proceso de aprendizaje.
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1KX63C65PI1DP0G5BISLItextIplain" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table cellpadding=10 cellspacing=0 bgcolor="#12809a" width="80" border="0" style="border-radius:10px;">
+    <tr>
+      <td wrap><font face="Geneva, Arial" style="font-weight:bold;color:white" size=2 width=80>
+      Modelo que gu�a la planeaci&oacute;n y el dise&ntilde;o de un curso virtual.
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1KX609P71I1KC3ZBPIMNItextIplain" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table cellpadding=10 cellspacing=0 bgcolor="#12809a" width="80" border="0" style="border-radius:10px;">
+    <tr>
+      <td wrap><font face="Geneva, Arial" style="font-weight:bold;color:white" size=2 width=80>
+      Conjunto de acciones y procesos que se realizan para lograr un prop&oacute;sito
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1KX64Z3TQISH55RDI267ItextIplain" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table cellpadding=10 cellspacing=0 bgcolor="#12809a" width="80" border="0" style="border-radius:10px;">
+    <tr>
+      <td wrap><font face="Geneva, Arial" style="font-weight:bold;color:white" size=2 width=80>
+      Acci&oacute;n y efecto de aprender alg�n arte, oficio u otra cosa. Adquisici&oacute;n por la pr�ctica de una conducta duradera. (RAE). 
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1KX64R8W3I116SK4RI1XBItextIplain" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+ <table cellpadding=10 cellspacing=0 bgcolor="#12809a" width="80" border="0" style="border-radius:10px;">
+    <tr>
+      <td wrap><font face="Geneva, Arial" style="font-weight:bold;color:white" size=2 width=80>
+      Proceso de comunicaci&oacute;n que se realiza en tiempo real en un ambiente virtual. Ejemplo: Chat.
+      </td>
+    </tr>
+  </table>
+</div>
+

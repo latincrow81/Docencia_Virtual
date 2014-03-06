@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><actividad tipo="Completar">
+
+<!-- Parte generica -->
+	<!-- Indica que color de fondo se le pondra al flash (por defecto 0x8993A0) -->
+	<color_fondo>0x8993A0</color_fondo>
+	<!-- Indica que color se le pondra a los elementos del flash (por defecto 0x728F61) -->
+	<color_botones>0xff8a00</color_botones>
+	<!-- Indica si se mostrara al alumno la respuesta correcta o no, en caso de que el alumno no supere el ejercicio -->
+	<correccion>si</correccion>
+	<numero_intentos>2</numero_intentos>
+    <puntos>100</puntos>
+	<puntos_resta>50</puntos_resta>
+	<!-- Indica si la respuesta del alumno debe ser igual a la respuesta correcta en lo referente a las mayusculas y acentos, solo en el caso de que la forma de completar sea escrita -->
+	<sensible_mayusculas>no</sensible_mayusculas>
+	<sensible_acentos>no</sensible_acentos>
+	<!-- Indica si tiene un tiempo maximo para realizar la actividad, estara definido en segundos -->
+	<tiempo maximo="no">0</tiempo>
+	
+	<autor>Diana Lucía Cuéllar Basto</autor>
+	<descripcionUsuario>Completa en el siguiente texto las etapas del dise&amp;ntilde;o instruccional.</descripcionUsuario>
+	
+      <registro>
+		<!-- Indica el tipo de registro:
+		- script -> registro a traves de un script (php, jsp, etx)
+		- scorm -> registreo a traves de scorp
+		-->
+		<tipo>scorm</tipo>
+		<!-- Indica la url del scrip, en caso de que el tipo sea script	-->
+		<url></url>
+		<!-- Indica los parametros a pasar al script, en caso de que el tipo sea script	-->
+		<parametros>
+			<!-- La etiqueta nombre contiene el nombre del parametro a pasar -->
+			<!-- La etiqueta valor contiene el valor al que hace referencia el parametro (buscara el nombre de la varible en flash):
+			- SCORE: puntuacion de la actividad, en porcentaje
+			- TIME: tiempo de la actividad, en segundos
+			- URL: direccion de la actividad
+			-->
+			<parametro id="1">
+				<nombre>score</nombre>
+				<valor>SCORE</valor>
+			</parametro>
+			<parametro id="2">
+				<nombre>time</nombre>
+				<valor>TIME</valor>
+			</parametro>
+			<parametro id="3">
+				<nombre>url</nombre>
+				<valor>URL</valor>
+			</parametro>
+		</parametros>
+	</registro>
+    
+<!-- Parte especifica -->
+	<!-- Indica si se mostrara al alumno las palabras que estan ocultas -->
+	<ayuda>si</ayuda>
+	<!-- Indica la forma de completar los huecos, 2 opciones:
+	- escribir
+	- clickar, esta forma conlleva a que la ayuda este activada
+	-->
+	<forma_completar>clickar</forma_completar>
+	<titulo>Instrucciones</titulo>
+	
+	<tituloAplicacion>Diseño Instruccional</tituloAplicacion>
+	
+	<!-- Indica la forma de realizar la actividad, es decir la ayuda de la actividad -->
+	<descripcion>Intenta completar el texto con las palabras que faltan.
+        Para ello, pulsa sobre las palabras de la parte inferior en el orden correcto para completar todos los huecos.
+    
+</descripcion>
+	<enunciado>Complete este texto</enunciado>
+	<texto>En la etapa de ANÁLISIS se detectan las necesidades de aprendizaje, se definen las características del programa o curso, los objetivos, los resultados que se deben alcanzar y los temas a tratar. Se deben tener en cuenta las características y capacidades de los participantes del curso y del contexto. 
+ 
+Cuando el curso está estructurado y se tiene claro qué se va hacer, se inicia la fase de DISEÑO en la que se define la metodología y se seleccionan las estrategias que se utilizaran para que se propicie el aprendizaje. 
+ 
+En la etapa de DESARROLLO se crean los contenidos y materiales pedagógicos que servirán para alcanzar la meta del curso, así como la selección de los medios adecuados (audio, video, texto, multimedia, etc,) para la transmisión de la información que se va aprender. 
+ 
+La IMPLEMENTACIÓN consiste en organizar el espacio del aprendizaje, las orientaciones, los contenidos, los materiales, los recursos, las actividades, herramientas de interacción, de evaluación, etc. 
+ 
+Por último, en la etapa de EVALUACIÓN se revisa cada una de las etapas del proceso, y se diseñan intervenciones con el propósito de mejorar y optimizar la acción formativa.</texto>
+	<!-- Las palabras que seran eliminadas del texto -->
+	<palabras>
+    		<palabra>15</palabra>
+    		<palabra>393</palabra>
+    		<palabra>541</palabra>
+    		<palabra>797</palabra>
+    		<palabra>1023</palabra>
+    	</palabras>
+	
+    
+        <idioma>
+		<nIntentos>Num. Intentos</nIntentos>
+		<txtPuntos>Puntos</txtPuntos>
+		<txtTiempo>Tiempo</txtTiempo>
+		<txtTiempoRestante>Tiempo Restante</txtTiempoRestante>
+		<comprobar>Comprobar</comprobar>
+
+		<txtRespuestaIncorrecta>Respuesta Incorrecta</txtRespuestaIncorrecta>
+		<txtActNoSuperada>Actividad no superada</txtActNoSuperada>
+		<txtTiempoSuperado>Has superado el tiempo máximo para esta actividad</txtTiempoSuperado>
+		<txtCerrar>Cerrar</txtCerrar>
+		<txtRespuestaCorrecta>La respuesta correcta es</txtRespuestaCorrecta>
+		<txtOtrasRespuestas>Otras respuestas</txtOtrasRespuestas>
+		<txtTituloRespuestaCorrecta>Respuesta correcta</txtTituloRespuestaCorrecta>
+		<txtBoxRespuestaCorrecta>Enhorabuena has superado la actividad</txtBoxRespuestaCorrecta>
+		<txtTituloOtrasRespuestas>Otras posibles respuestas</txtTituloOtrasRespuestas>
+		<txtSuperadoNumeroIntentos>Has superado el número de intentos de esta actividad</txtSuperadoNumeroIntentos>
+		<txtTituloSuperadoNumeroIntentos>Actividad no superada</txtTituloSuperadoNumeroIntentos>
+        
+   		<txtAceptar>Aceptar</txtAceptar>
+   		<txtTituloPalabrasParaCompletar>Palabras para completar los espacios</txtTituloPalabrasParaCompletar>
+   		<txtMsgNoCompleta>No ha completado todos los huecos por lo que la respuesta no es correcta</txtMsgNoCompleta>
+		<txtMsgNoCorrecta>La respuesta introducida no es correcta</txtMsgNoCorrecta>
+		<txtPalabraYaIntroducida>La palabra introducida, ya está en otro hueco</txtPalabraYaIntroducida>
+		<txtPalabraIncorrecta>La palabra introducida no está entre las opciones restantes</txtPalabraIncorrecta>
+
+   		<txtSensibleMayusculas>Diferencia entre mayúsculas y minúsculas</txtSensibleMayusculas>
+		<txtNoSensibleMayusculas>No diferencia entre mayúsculas y minúsculas</txtNoSensibleMayusculas>
+		<txtSensibleAcentos>Sensible a acentos</txtSensibleAcentos>
+		<txtNoSensibleAcentos>No sensible a acentos</txtNoSensibleAcentos>
+		
+		<txtTiempoMaximo>Tiempo máximo</txtTiempoMaximo>
+		<txtSensible>Sensible</txtSensible>
+		<txtMayusculasMinusculas>Mayúsculas/Minúsculas</txtMayusculasMinusculas>
+		<txtAcentos>Acentos</txtAcentos>
+		<txtComenzar>Comenzar</txtComenzar>
+		<txtAutor>Autor</txtAutor>
+		<txtAyuda>Ayuda</txtAyuda>
+		<txtMostrarMas>Mostrar más</txtMostrarMas>
+		<txtMostrarMenos>Mostrar menos</txtMostrarMenos>
+		<txtReiniciar>Reiniciar</txtReiniciar>
+		<txtVolverJugar>Volver a jugar</txtVolverJugar>
+		<txtResponder>Responder</txtResponder>
+		<txtRegistrarse>Registrarse</txtRegistrarse>
+		<txtAcceder>Acceder</txtAcceder>
+		<txtCompartirResultado>Compartir resultado</txtCompartirResultado>
+		<txtAumentar>Aumentar</txtAumentar>
+		<txtReducir>Reducir</txtReducir>
+		<txtPantallaCompleta>Pantalla completa</txtPantallaCompleta>
+		<txtImprimir>Imprimir</txtImprimir>
+
+	</idioma>
+
+
+</actividad>
